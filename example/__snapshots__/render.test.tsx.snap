@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compose 0 component without crashing 1`] = `"Test"`;
+
+exports[`compose 1 component without crashing 1`] = `
+<div>
+  Test
+</div>
+`;
+
+exports[`compose 3 component without crashing 1`] = `
+<div>
+  <div>
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`compose component with props and without crashing 1`] = `
+<div
+  className="testClass"
+>
+  Test
+</div>
+`;
+
+exports[`compose html tag component without crashing 1`] = `
+<div>
+  Test
+</div>
+`;
