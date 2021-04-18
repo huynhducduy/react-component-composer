@@ -1,0 +1,10 @@
+{
+  "name": "react-component-composer",
+  "version": "1.0.0",
+  "description": "A utility that help compose a bunch of components into a single one to avoid cases like provider hell.",
+  "main": "index.js",
+  "repository": "git@github.com:huynhducduy/react-component-composer.git",
+  "author": "Huynh Duc Duy <duy.huynh@linecorp.com>",
+  "license": "MIT",
+  "private": false
+}
