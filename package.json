@@ -2,9 +2,29 @@
   "name": "react-component-composer",
   "version": "1.0.0",
   "description": "A utility that help compose a bunch of components into a single one to avoid cases like provider hell.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "react-component-composer.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "git@github.com:huynhducduy/react-component-composer.git",
   "author": "Huynh Duc Duy <duy.huynh@linecorp.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-test-renderer": "^17.0.1",
+    "react": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "tsdx": "^0.14.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --env=jsdom",
+    "release": "yarn test && yarn build && yarn publish"
+  }
 }
