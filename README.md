@@ -1,7 +1,7 @@
 # React Component Composer
 
 ![npm (scoped)](https://img.shields.io/npm/v/react-component-composer)
-[![devDependencies Status](https://david-dm.org/huynhducduy/react-component-composer/dev-status.svg)](https://david-dm.org/huynhducduy/react-component-composer?type=dev)
+[![devDependencies Status](https://status.david-dm.org/gh/huynhducduy/react-component-composer.svg)](https://david-dm.org/huynhducduy/react-component-composer?type=dev)
 ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/react-component-composer)
 ![npm](https://img.shields.io/npm/dm/react-component-composer)
 ![Dependent repos (via libraries.io), scoped npm package](https://img.shields.io/librariesio/dependent-repos/npm/react-component-composer)
